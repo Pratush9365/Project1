@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- Display the current time -->
+    <TextView
+        android:id="@+id/timeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:text="Current Time"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"/>
+
+    <!-- Display the current date -->
+    <TextView
+        android:id="@+id/dateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        android:text="Date"
+        android:layout_below="@id/timeTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Button to set a new alarm -->
+    <Button
+        android:id="@+id/setAlarmButton"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="Set Time"
+        android:layout_marginHorizontal="26dp"
+        android:layout_marginTop="32dp"
+        android:textSize="26dp"/>
+    <Button
+        android:id="@+id/cancel_button"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="Click to set alarm"
+        android:layout_marginHorizontal="26dp"
+        android:layout_marginTop="8dp"
+        android:textSize="26dp"/>
+        <Button
+            android:id="@+id/cabutton"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="Cancel "
+            android:layout_marginHorizontal="26dp"
+            android:layout_marginTop="8dp"
+            android:textSize="26dp"/>
+    </LinearLayout>
+
+
